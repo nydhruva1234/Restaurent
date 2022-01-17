@@ -8,7 +8,7 @@ const port=process.env.port||3000
 app.get('/',(req,res)=>{
     res.render('home')
 })
-
+app.use(express.static('frontend'))
 app.use(expresslayout)
 app.set('views',path.join(__dirname,'/resources/views'))
 app.set('view engine','ejs')

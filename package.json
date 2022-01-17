@@ -7,7 +7,11 @@
   "license": "ISC",
   "scripts": {
     "serve": "node server.js",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "development": "mix",
+    "watch": "npm run development --watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot"
   },
   "dependencies": {
     "ejs": "^3.1.6",
@@ -15,7 +19,11 @@
     "express-ejs-layouts": "^2.5.1"
   },
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "laravel-mix": "^6.0.39",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "resolve-url-loader": "^4.0.0",
+    "sass": "^1.48.0",
+    "sass-loader": "^12.1.0"
   }
 }
