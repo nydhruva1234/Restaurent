@@ -20,6 +20,11 @@ nav li a{
 }
 section.hom{
     background: $secondary;
+   
+}
+section.menu{
+    background: $pure;
+    
 }
 .size{
     background: $secondary;
@@ -27,6 +32,7 @@ section.hom{
 .add-to-cart{
     border: 2px solid $primary;
     color: $primary;
+    
     &:hover{
         background:$primary ;
         border-color: $pure;
@@ -43,4 +49,52 @@ section.hom{
         color: $pure;
     }
 
+}
+.goback{
+    border: 2px solid $primary;
+    color: $primary;
+    &:hover{
+        background:$primary ;
+        border-color: $pure;
+        color: $pure;
+    }
+}
+
+section.cart{
+    background: $secondary;
+    .amount{
+        color: $primary;
+    }
+   
+    .log{
+        background: $primary;
+    }
+}
+.btn-primary{
+    background: $primary;
+    &:hover{
+        color: $primary-hover;
+    }
+}
+section.login{
+    background: $secondary;
+    min-height: calc(100vh - 86px);
+    
+    a{
+        color: $primary;
+        &:hover{
+            color: $primary-hover;
+        }
+    }
+}
+section.register{
+    background: $secondary;
+    min-height: calc(100vh - 86px);
+    
+    a{
+        color: $primary;
+        &:hover{
+            color: $primary-hover;
+        }
+    }
 }
