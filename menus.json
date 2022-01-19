@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Margharitha",
+    "image": "pizza.png",
+    "price": "₹150",
+    "size": "small"
+  },
+  {
+    "id": 2,
+    "name": "Peppy panner",
+    "image": "pizza.png",
+    "price": "₹250",
+    "size": "small"
+  },
+  {
+    "id": 3,
+    "name": "Delux Veggie",
+    "image": "pizza.png",
+    "price": "₹350",
+    "size": "small"
+  },
+  {
+    "id": 4,
+    "name": "Veggie paradise ",
+    "image": "pizza.png",
+    "price": "₹250",
+    "size": "small"
+  },
+  {
+    "id": 5,
+    "name": " Farmhouse",
+    "image": "pizza.png",
+    "price": "₹250",
+    "size": "small"
+  },
+  {
+    "id": 6,
+    "name": "Cheese Dominator",
+    "image": "pizza.png",
+    "price": "₹450",
+    "size": "small"
+  }
+]
